@@ -1,22 +1,22 @@
-/* Originally default.css from mdpress: https://github.com/egonSchiele/mdpress/blob/master/lib/impress_css/default.css */
+@import url(http://fonts.googleapis.com/css?family=Josefin+Slab);
+@import url(http://fonts.googleapis.com/css?family=Merriweather);
+@import url(http://fonts.googleapis.com/css?family=Nova+Mono);
 
 html {
 	overflow: hidden;
 }
 
 body {
-	font-family: 'Open Sans', sans-serif;
-	line-height: 40px;
+	font-family: 'Merriweather', sans-serif;
+	line-height: 1.2em;
 	font-size: 32px;
-}
-
-body {
 	min-height: 740px;
 	background: -moz-radial-gradient(50% 50%, farthest-side, #fff, #efefef);
 	background: -webkit-gradient(radial, 50% 50%, 250, 50% 50%, 750, from(#fff), to(#efefef));
-	background: -ms-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-	background: -o-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-	background: radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+	background: -ms-radial-gradient(rgb(128, 0, 128), rgb(120, 81, 169));
+	background: -o-radial-gradient(rgb(128,0,128), rgb(120, 81, 169));
+	background: radial-gradient(rgb(128,0,128), rgb(120, 81, 169));
+	color: lightyellow;
 	pointer-events: none;	/* Fix Body Click */
 }
 
@@ -67,18 +67,20 @@ h1, h2 {
 }
 
 h1 {
-	font-size: 120px;
+    color: yellow;
+        font-family: 'Josephin Slab',serif;
+	font-size: 2.5em;
 	margin: 20px 0;
-	line-height: 130px;
+	line-height: 1.2em;
 }
 
 h2 {
-  font-size: 48px;
-	font-weight: 300;
-	letter-spacing: .1em;
-	text-transform: uppercase;
-	line-height: 72px;
-	margin: 10px 0;
+  font-size: 2em;
+  font-weight: 300;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  line-height: 1.2em;
+  margin: 10px 0;
 }
 
 .light {
@@ -105,8 +107,9 @@ table {
 }
 
 code {
-  font-size: 30px;
-  line-height: 36px;
+    font-family: 'Nova Mono', 'Inconsolata', monospace;
+    font-size: 1.2em;
+    line-height: 1.2em;
 }
 
 a {
@@ -209,19 +212,4 @@ span,strong {
 	-ms-transition-delay: 0.5s;
 	-o-transition-delay: 0.5s;
 	transition-delay: 0.5s;
-}
-
-sub, sup { 
-  font-size: 75%;
-  line-height: 0; 
-  position: relative; 
-  vertical-align: baseline; 
-}
-
-sup { 
-  top: -0.5em; 
-}
-
-sub { 
-  bottom: -0.25em; 
 }
