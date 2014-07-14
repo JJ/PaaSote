@@ -49,3 +49,24 @@ title: Plataformas y apliaciones en la nube
 * Incorporación rápida de mejoras.
 * Cambios atómicos: fácil localizar errores.
 * Integración desarrollo/operaciones/pruebas de calidad
+
+---
+# Pero todo empieza por el primer paso.
+
+## Creación de un repositorio para tu proyecto.
+
+### Y que el repo sea público.
+
+---
+# Usaremos `git` para gestionar el respositorio
+
+## Git es un sistema de control de fuentes
+
+### Lo clásico: versionado, atribución, puntos de control del código, fusión.
+
+---
+# Pero `git` va mucho más allá
+
+* Es un sistema distribuido
+* Almacena el estado del repositorio en cada momento.
+* Es un sistema de ficheros direccionado por contenido. 
