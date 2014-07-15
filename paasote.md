@@ -28,7 +28,20 @@ title: Plataformas y apliaciones en la nube
 - Actualización
 
 ---
+# Vamos a construir algo
 
+## Vamos a crear una mini-aplicación en la nube.
+
+### Asequible y que podamos probar en breve. Una mini-web
+
+---
+# ¿Sugerencias?
+
+* Blog muy simple
+* Lista to-do
+* Trivial
+
+---
 # El ciclo se gestiona automáticamente.
 
 ## Si no, no hay manera de saber qué produce un error y por qué.
@@ -97,3 +110,24 @@ title: Plataformas y apliaciones en la nube
 ## Las licencias débiles son más fáciles de combinar con software comercial y libre.
 
 ## Las **fuertes** obligan a poner la misma licencia al código que las incluya: *copyleft*.
+
+---
+# Vamos a crear un repositorio en GitHub
+
+* Nombre y `.gitignore` (usad lo que queráis)
+
+* Readme.md (programa que usar MarkDown)
+
+* *Licencia *: GPL fuerte, Apache o MIT débiles. Elegid la que queráis.
+
+---
+# GitHub sin git
+
+## Prácticamente todo se puede hacer desde la web
+
+## También se puede [descargar un interfaz gráfico](http://windows.github.com).
+
+---
+# "Editemos un fichero*
+
+## Usando [Markdown](http://joedicastro.com/pages/markdown.html), un lenguaje de etiquetas simplificado, se puede editar el fichero README y añadirle la descripción del proyecto y cómo queremos hacerlo. 
