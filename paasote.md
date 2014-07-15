@@ -131,3 +131,24 @@ title: Plataformas y apliaciones en la nube
 # "Editemos un fichero*
 
 ## Usando [Markdown](http://joedicastro.com/pages/markdown.html), un lenguaje de etiquetas simplificado, se puede editar el fichero README y añadirle la descripción del proyecto y cómo queremos hacerlo. 
+
+---
+# Añadamos a otros compañeros al proyecto
+
+## Empezamos con un repositorio por persona, pero ahora creemos otro y añadamos a las personas con las que vamos a colaborar
+
+---
+# Que alguien edite un artículo
+
+## Y en el mensaje, pone `@nick` del siguiente editor (este recibirá email).
+
+### Que lo editen todos los miembros y vuelva al primer editor para revisar.
+
+---
+# GitHub sabe lo que hiciste el último commit
+
+## Te muestra los cambios y una serie de estadísticas
+
+### Y es un sistema *social* porque facilita la colaboración.
+
+
