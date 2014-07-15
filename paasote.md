@@ -44,11 +44,11 @@ title: Plataformas y apliaciones en la nube
 ## [**Lanzamiento continuo**](http://en.wikipedia.org/wiki/Continuous_delivery): ciclos rápidos de lanzamiento
 
 ---
-# Ventajas de integración/lanzamiento continuos
+# Por qué molan CI/CD
 
 * Incorporación rápida de mejoras.
 * Cambios atómicos: fácil localizar errores.
-* Integración desarrollo/operaciones/pruebas de calidad
+* Integración desarrollo/operaciones/pruebas de calidad.
 
 ---
 # Pero todo empieza por el primer paso.
@@ -58,9 +58,9 @@ title: Plataformas y apliaciones en la nube
 ### Y que el repo sea público.
 
 ---
-# Usaremos `git` para gestionar el respositorio
+# Usaremos `git` para gestionar el repositorio
 
-## Git es un sistema de control de fuentes
+## Git es un sistema **moderno** de control de fuentes
 
 ### Lo clásico: versionado, atribución, puntos de control del código, fusión.
 
@@ -70,3 +70,30 @@ title: Plataformas y apliaciones en la nube
 * Es un sistema distribuido
 * Almacena el estado del repositorio en cada momento.
 * Es un sistema de ficheros direccionado por contenido. 
+* Se ha convertido en un modo de vida para el programador
+
+---
+# Mejor empezar por GitHub
+
+## Alta en [GitHub](http://github.com).
+
+---
+# Software libre
+
+## Toda la nube está basada en software libre
+
+### El mismo concepto no se podría entender si no existiera.
+
+---
+# El software es libre si tiene una licencia
+
+## La licencia indica qué se puede hacer con él.
+
+### Pero nunca se puede cambiar la autoría 
+
+---
+# Licencias débiles y fuertes
+
+## Las licencias débiles son más fáciles de combinar con software comercial y libre.
+
+## Las **fuertes** obligan a poner la misma licencia al código que las incluya: *copyleft*.
