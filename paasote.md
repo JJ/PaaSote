@@ -151,4 +151,32 @@ title: Plataformas y apliaciones en la nube
 
 ### Y es un sistema *social* porque facilita la colaboración.
 
+---
+# Koding: programación social
+
+## A un primer nivel, [Koding] es una máquina virtual
+
+### Pero se pueden hacer más cosas.
+
+---
+# Abramos una cuenta en Koding.
+
+## Creemos una aplicación (+)
+
+### ¡Y despleguemos!
+
+---
+# Usaremos Koding como nuestra plataforma
+
+## Para despegar todo tipo de aplicaciones en Internet.
+
+### ¿Todo el mundo familiar con la línea de órdenes de Linux?
+
+---
+# Volvamos a git
+
+## Creemos una pequeña aplicación web
+
+### Django, Ruby on Rails, node.js + express. Ante la duda, este último.
+
 
