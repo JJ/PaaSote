@@ -251,7 +251,7 @@ git push
 
 ## Se debe aprender a crear aplicaciones, no a programar en un lenguaje.
 
-## Una aplicación web normal incluye varios lenguajes: JavaScript, HTML, CSS, Python o PHP... 
+### Una aplicación web normal incluye varios: JavaScript, HTML, CSS, Python o PHP... 
 
 ---
 # Interludio sobre PaaS
@@ -263,21 +263,23 @@ git push
 ---
 # Un PaaS proporciona un *full stack*
 
-## Almacenamiento de datos + marco de aplicaciones + servidor web
+## Almacenamiento de datos + marco de aplicaciones + servidor web.
 
 ### En ocasiones, usable también como un IaaS.
 
 ---
 # La mayoría siguen un modelo freemium
 
-## Proporcionan un grado de servicio gratuito
+## Proporcionan un grado de servicio gratuito.
 
 ### Incluye pocas máquinas virtuales y con poca potencia.
 
 ---
 # Ejemplos: Heroku y OpenShift
 
-### Abrir cuenta en alguno de ellos o en los dos
+## Abrir cuenta en alguno de ellos o en los dos.
+
+### Primero OpenShift, más flexibilidad.
 
 ---
 # Creación rápida de aplicaciones
@@ -288,3 +290,10 @@ git push
 # Crea tu *stack* rápidamente en alguno de ellos
 
 ## Y tuitea con #paasunia el resultado
+
+---
+# Pero no solo de *stacks* vive el hombre
+
+## Vamos a desplegar nuestra aplicación en este PaaS
+
+### Pero antes habrá que aprender una cosa o tres.
