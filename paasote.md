@@ -297,3 +297,31 @@ git push
 ## Vamos a desplegar nuestra aplicación en este PaaS
 
 ### Pero antes habrá que aprender una cosa o tres.
+
+---
+# ¿Cuantas máquinas estamos usando?
+
+## Cada miembro del equipo tiene la suya.
+
+## + máquina de pruebas + máquina de explotación.
+
+---
+# Mucho arroz para tan poco pollo
+
+## Pero lo importante es que *el entorno de desarrollo tiene que ser el mismo*
+
+### Y puede que hagan falta varios entornos de desarrollo.
+
+---
+# *DevOps* al rescate
+
+## *DevOps* == Desarrollo + operaciones
+
+### Integra "Sistemas" con el equipo de desarrollo, para proporcionar soporte eficiente al mismo.
+
+---
+# *DevOps* también *programa* los sistemas
+
+## Los entornos de desarrollo y explotación, para que sean reproducibles, están descritos por software
+
+### E integrados en el sistema de control de fuentes.
