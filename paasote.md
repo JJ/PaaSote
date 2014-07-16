@@ -190,6 +190,28 @@ express mi_nueva_app
 ```
 ### Se siguen instrucciones para ejecutar.
 
+---
+# Pero esta aplicación tendrá su ciclo de vida
 
+## Vamos a añadirla al repositorio
+
+---
+# Descargamos el repositorio
+
+``` 
+git clone git@github.com:minick/miproyecto.git
+``` 
+
+### Crea un repositorio local y descarga los fuentes de nuestro proyecto.
+
+---
+# Añadimos los nuevos fuentes
+
+## Copiamos al subdirectorio, 
+
+``` 
+cd mi_nueva_app
+git add .
+``` 
 
 
