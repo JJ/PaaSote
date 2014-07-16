@@ -240,6 +240,12 @@ git push
 ### Sincroniza los cambios locales con el repo remoto.
 
 ---
+# Cuando hacer commit
+
+## Cada vez que sehaga un cambio significativo.
+
+## Regla 50+72
+---
 # ¿Cuantos lenguajes llevamos ya?
 
 ## Se debe aprender a crear aplicaciones, no a programar en un lenguaje.
