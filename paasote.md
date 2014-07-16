@@ -128,19 +128,22 @@ title: Plataformas y apliaciones en la nube
 ## También se puede [descargar un interfaz gráfico](http://windows.github.com).
 
 ---
-# "Editemos un fichero*
+# "Editemos" un fichero
 
 ## Usando [Markdown](http://joedicastro.com/pages/markdown.html), un lenguaje de etiquetas simplificado, se puede editar el fichero README y añadirle la descripción del proyecto y cómo queremos hacerlo. 
 
 ---
 # Añadamos a otros compañeros al proyecto
 
-## Empezamos con un repositorio por persona, pero ahora creemos otro y añadamos a las personas con las que vamos a colaborar
+1. Crear un nuevo repositorio
+2. Añadir al grupo de colaboradores
+
+### Este repositorio lo usaremos para desarrollar la aplicación.
 
 ---
 # Que alguien edite un artículo
 
-## Y en el mensaje, pone `@nick` del siguiente editor (este recibirá email).
+## Y en el mensaje, que ponga `@nick` del siguiente editor (este recibirá email).
 
 ### Que lo editen todos los miembros y vuelva al primer editor para revisar.
 
@@ -154,32 +157,39 @@ title: Plataformas y apliaciones en la nube
 ---
 # Koding: programación social
 
-## A un primer nivel, [Koding] es una máquina virtual
+## A un primer nivel, [Koding](http://koding.com) es una máquina virtual.
 
-### Pero se pueden hacer más cosas.
+### Pero es también un entorno colaborativo de trabajo y despliegue.
 
 ---
 # Abramos una cuenta en Koding.
 
-## Creemos una aplicación (+)
+## Creemos una aplicación (+).
 
 ### ¡Y despleguemos!
 
 ---
-# Usaremos Koding como nuestra plataforma
+# Koding crea aplicaciones en *CoffeeScript*
+
+## Una versión simplificada de JavaScript.
+
+### Se compila a JavaScript.
+
+---
+# Usaremos Koding como nuestra plataforma de desarrollo.
 
 ## Para despegar todo tipo de aplicaciones en Internet.
 
 ### ¿Todo el mundo familiar con la línea de órdenes de Linux?
 
 ---
-# Volvamos a git
+# Creemos una aplicación para git
 
 ## Creemos una pequeña aplicación web
 
-### Django, Ruby on Rails, node.js + express. Ante la duda, este último.
+### Django, Ruby on Rails, node.js + express. 
 
-### Usemos simplemente el generador que viene con esas aplicaciones
+### Usemos simplemente el generador que viene con esas aplicaciones.
 
 ---
 # Por ejemplo, con `express.js`
@@ -214,4 +224,24 @@ cd mi_nueva_app
 git add .
 ``` 
 
+### Añade todos los ficheros creados al repositorio
 
+---
+# Pero hay que sincronizar
+
+``` 
+git commit -am "Aplicación generada"
+```
+### Guarda el estado de los ficheros modificados 
+
+```
+git push
+```
+### Sincroniza los cambios locales con el repo remoto.
+
+---
+# ¿Cuantos lenguajes llevamos ya?
+
+## Se debe aprender a crear aplicaciones, no a programar en un lenguaje.
+
+## Una aplicación web normal incluye varios lenguajes: JavaScript, HTML, CSS, Python o PHP... 
