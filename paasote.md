@@ -54,7 +54,7 @@ title: Plataformas y apliaciones en la nube
 
 ## [**Integración continua**](http://es.wikipedia.org/wiki/Integraci%C3%B3n_continua): tests automáticos + integración.
 
-## [**Lanzamiento continuo**](http://en.wikipedia.org/wiki/Continuous_delivery): ciclos rápidos de lanzamiento
+## [**Lanzamiento continuo**](http://en.wikipedia.org/wiki/Continuous_delivery): ciclos rápidos de lanzamiento.
 
 ---
 # Por qué molan CI/CD
@@ -80,10 +80,10 @@ title: Plataformas y apliaciones en la nube
 ---
 # Pero `git` va mucho más allá
 
-* Es un sistema distribuido
+* Permite trabajar de forma distribuida.
 * Almacena el estado del repositorio en cada momento.
 * Es un sistema de ficheros direccionado por contenido. 
-* Se ha convertido en un modo de vida para el programador
+* Se ha convertido en un modo de vida para el programador.
 
 ---
 # Mejor empezar por GitHub
@@ -178,5 +178,18 @@ title: Plataformas y apliaciones en la nube
 ## Creemos una pequeña aplicación web
 
 ### Django, Ruby on Rails, node.js + express. Ante la duda, este último.
+
+### Usemos simplemente el generador que viene con esas aplicaciones
+
+---
+# Por ejemplo, con `express.js`
+
+```
+sudo install npm -g express-generator
+express mi_nueva_app
+```
+### Se siguen instrucciones para ejecutar.
+
+
 
 
