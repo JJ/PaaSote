@@ -325,3 +325,15 @@ git push
 ## Los entornos de desarrollo y explotación, para que sean reproducibles, están descritos por software
 
 ### E integrados en el sistema de control de fuentes.
+
+---
+# Entornos virtuales ayudan a homogeneizar equipos de desarrollo
+
+## `rbenv`, `rvm`, `virtualenv`, `perlbrew`, `nave`
+
+### Descargan y seleccionan versiones específicas de lenguajes *a nivel de usuario*
+
+---
+# Trabajemos con `nave`
+
+## Instalad `nave` en koding y ejecutad el programa generado anteriormente.
