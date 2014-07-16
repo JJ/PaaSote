@@ -343,7 +343,9 @@ git push
 ---
 # Trabajemos con `nave`
 
-## Instalad `nave` en koding y ejecutad el programa generado anteriormente.
+## Instalad `nave` (u otro entorno) en koding y ejecutad el programa generado anteriormente.
+
+### ¿Funciona en la última versión?  ¿Y en una antigua que puede estar instalada por alguien?
 
 ---
 # PaaS no es sólo una plataforma para alojar aplicaciones
@@ -379,7 +381,7 @@ git push --set-upstream origin pruebas
 
 ## ¡No te lo digo!
 
-### No se fusionan *a menos que hayan pasado los tests*
+### No se fusionan *a menos que hayan pasado los **tests** *.
 
 ---
 # Venga, va, ¿cómo se pasan los tests?
