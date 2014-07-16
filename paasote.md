@@ -334,11 +334,11 @@ git push
 ### E integrados en el sistema de control de fuentes.
 
 ---
-# Entornos virtuales ayudan a homogeneizar equipos de desarrollo
+# Un entorno para dominarlos a todos.
 
 ## `rbenv`, `rvm`, `virtualenv`, `perlbrew`, `nave`
 
-### Descargan y seleccionan versiones específicas de lenguajes *a nivel de usuario*
+### Descargan y seleccionan versiones específicas de lenguajes *a nivel de usuario*.
 
 ---
 # Trabajemos con `nave`
