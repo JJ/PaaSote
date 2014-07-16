@@ -8,10 +8,17 @@ title: Plataformas y apliaciones en la nube
 ## Universidad de Granada
 
 ---
+# No se trata sólo de usar plataformas nubosas
+
+## Se trata de aprender la metodología de desarrollo en la nube. 
+
+---
+
 # Qué os voy a contar
 
 * Cómo se diseñan y crean aplicaciones para la nube
 * Cómo usar `git` de forma básica.
+* Qué es DevOps y por qué importa.
 * Qué es el *despliegue* y cómo usarlo.
 * Qué es un PaaS y qué ejemplos hay.
 * Cómo usar un PaaS de forma básica.
