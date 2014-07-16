@@ -413,6 +413,90 @@ git push --set-upstream origin pruebas
 ## Ya que somos varios, podemos encargárselo a una persona del grupo.
 
 ---
+# Ejemplo en mocha 
+
+```
+var request = require('supertest');  
+var server=require(__dirname + '/../web.js');
+var port = Number(process.env.PORT || 5000);
+request=request("http://localhost:"+port);
+describe('Web', function(){
+	     it('Debería devolver la raíz', function(){
+		    request.get("/")
+			.expect(200)
+			.end(function(err,res) {
+				 if (err) {
+				     throw err ;
+				 }
+			     });
+		});
+});
+```
+---
+# El ejemplo lo dice todo
+
+## Se guarda en `test/route.js`
+
+## Se ejecuta con `mocha`
+
+---
+# No importa la herramienta.
+
+## Ésta sólo es un ejemplo.
+
+## Lo importante es *usar siempre tests*
+
+---
+## Porque una vez que tienes tests...
+
+# Tienes integración continua. 
+
+## GitHub se puede configurar para pasar tests cada vez que se haga un push. 
+
+---
+# Usemos [Travis](http://travis-ci.org) o Shippable
+
+## Travis se activa desde GitHub, en la pestaña *Web Hooks*
+
+## Configuración eh YAML
+
+---
+# Por ejemplo, para mocha en Shippable
+```
+language: node_js
+node_js:
+  - 0.10.25
+before_install:
+ - npm install supertest
+before_script:
+ - mkdir -p shippable/testresults
+script:
+  - mocha
+```
+
+---
+# ¡Otro lenguaje más!
+
+## Y los que te rondaré, morena.
+
+---
+# Recapitulemos
+
+## ¿Qué lenguajes hace falta conocer?
+
+1. Programación/scripting: Ruby, JavaScript, Perl, Python...
+2. Presentación: HTML, CSS, pero también SASS, Jade...
+3. Configuración/serialización: XML, YAML, JSON
+4. Datos: SQL o lenguajes específicos de herramienta
+
+---
+# Ya hemos testeado
+
+## Ahora ya podemos fusionar las ramas.
+
+### git hace el "trabajo duro". 
+
+---
 # Para fusionar ramas
 
 ```
