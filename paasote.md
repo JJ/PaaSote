@@ -244,7 +244,7 @@ git push
 
 ## Cada vez que sehaga un cambio significativo.
 
-## Regla 50+72
+### Regla 50+72: título en 50 caracteres, línea en blanco, resto en líneas de 72 caracteres.
 
 ---
 # ¿Cuantos lenguajes llevamos ya?
@@ -337,3 +337,76 @@ git push
 # Trabajemos con `nave`
 
 ## Instalad `nave` en koding y ejecutad el programa generado anteriormente.
+
+---
+# PaaS no es sólo una plataforma para alojar aplicaciones
+
+## Es un cambio de la filosofía de desarrollo que implica todo el ciclo de vida de una aplicación. 
+
+---
+# Vamos a hacer pruebas con la aplicación
+
+## Pero no queremos romper nada
+
+```
+git checkout -b pruebas
+```
+
+### Crea una nueva rama con los mismos ficheros que la original.
+
+```
+git push --set-upstream origin pruebas
+```
+
+### Crea la rama en el repo remoto y la une con el repo local
+
+---
+# *Feature branches* o ramas *dev*
+
+### Hay muchas escuelas de desarrollo: con dos ramas, con tres, con *n*. 
+
+## Habitual: una rama de desarrollo (`dev`) y una principal (`master`)
+
+---
+# ¿Cómo se fusionan ramas?
+
+## ¡No te lo digo!
+
+### No se fusionan *a menos que hayan pasado los tests*
+
+---
+# Venga, va, ¿cómo se pasan los tests?
+
+## Todo desarrollo moderno es TDD: *Test-driven development*
+
+### A cada *push*, se pasa una serie de tests.
+
+---
+# Sí, vale, eso es que se lo paso a mi colega...
+
+## No. Los tests deben estar automatizados.
+
+---
+# Cada lenguaje de programación tiene sus marcos de tests
+
+## Tests unitarios, tests de integración. 
+
+## JUnit, *unit, mocha (para JS)...
+
+---
+# Los tests tiene un formato de salida estándar 
+
+## Por eso se pueden ejecutar fácilmente y automáticamente por herramientas universales.
+
+---
+# Creemos tests unitarios para nuestra aplicación
+
+## Ya que somos varios, podemos encargárselo a una persona del grupo.
+
+---
+# Para fusionar ramas
+
+```
+git checkout master
+git pull --set-upstream origin pruebas
+```
