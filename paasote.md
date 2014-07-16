@@ -259,3 +259,32 @@ git push
 ### (Úsese para acabar de hacer los ejercicios anteriores)
 
 ## *PaaS* == Platform as a Service. 
+
+---
+# Un PaaS proporciona un *full stack*
+
+## Almacenamiento de datos + marco de aplicaciones + servidor web
+
+### En ocasiones, usable también como un IaaS.
+
+---
+# La mayoría siguen un modelo freemium
+
+## Proporcionan un grado de servicio gratuito
+
+### Incluye pocas máquinas virtuales y con poca potencia.
+
+---
+# Ejemplos: Heroku y OpenShift
+
+### Abrir cuenta en alguno de ellos o en los dos
+
+---
+# Creación rápida de aplicaciones
+
+## OpenShift permite instalar Wordpress en segundos.
+
+---
+# Crea tu *stack* rápidamente en alguno de ellos
+
+## Y tuitea con #paasunia el resultado
