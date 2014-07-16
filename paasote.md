@@ -245,9 +245,17 @@ git push
 ## Cada vez que sehaga un cambio significativo.
 
 ## Regla 50+72
+
 ---
 # ¿Cuantos lenguajes llevamos ya?
 
 ## Se debe aprender a crear aplicaciones, no a programar en un lenguaje.
 
 ## Una aplicación web normal incluye varios lenguajes: JavaScript, HTML, CSS, Python o PHP... 
+
+---
+# Interludio sobre PaaS
+
+### (Úsese para acabar de hacer los ejercicios anteriores)
+
+## *PaaS* == Platform as a Service. 
