@@ -343,7 +343,7 @@ git push
 ---
 # *DevOps* también *programa* los sistemas
 
-## Los entornos de desarrollo y explotación reproducibles están descritos por software.
+## Entornos de desarrollo/explotación reproducibles: descritos por software.
 
 ### E integrados en el sistema de control de fuentes.
 
