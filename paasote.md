@@ -132,7 +132,7 @@ title: Plataformas y apliaciones en la nube
 
 * Readme.md (programa que usar MarkDown)
 
-* *Licencia *: GPL fuerte, Apache o MIT débiles. Elegid la que queráis.
+* *Licencia*: GPL fuerte, Apache o MIT débiles. Elegid la que queráis.
 
 ---
 # GitHub sin git
@@ -195,6 +195,11 @@ title: Plataformas y apliaciones en la nube
 ## Para despegar todo tipo de aplicaciones en Internet.
 
 ### ¿Todo el mundo familiar con la línea de órdenes de Linux?
+
+---
+# O usa cualquier otra máquina virtual.
+
+## Siempre que tengas acceso shell y puedas instalar cosas.
 
 ---
 # Creemos una aplicación para git
