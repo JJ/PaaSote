@@ -413,7 +413,7 @@ git add .
     
 <h1><em>DevOps</em> también <em>programa</em> los sistemas</h1>
 
-<h2>Los entornos de desarrollo y explotación, para que sean reproducibles, están descritos por software</h2>
+<h2>Los entornos de desarrollo y explotación reproducibles están descritos por software.</h2>
 
 <h3>E integrados en el sistema de control de fuentes.</h3>
 </div>
@@ -467,7 +467,7 @@ git add .
 
 <h2>¡No te lo digo!</h2>
 
-<h3>No se fusionan *a menos que hayan pasado los <strong>tests</strong> *.</h3>
+<h3>No se fusionan <em>a menos que hayan pasado los <strong>tests</strong></em>.</h3>
 </div>
       <div class='step' >
     
@@ -510,7 +510,9 @@ git add .
 var server=require(__dirname + '/../web.js');
 var port = Number(process.env.PORT || 5000);
 request=request("http://localhost:"+port);
-describe('Web', function(){
+</code></pre>
+<h1>Continuando</h1>
+<pre><code class='prettyprint '>describe('Web', function(){
          it('Debería devolver la raíz', function(){
             request.get("/")
             .expect(200)
@@ -617,7 +619,8 @@ git pull pruebas
 <h1>Ya podemos desplegar</h1>
 
 <h3>(Aunque antes habría que hacer pruebas de integración).</h3>
-<pre><code class='prettyprint '>git remote add openshift ssh://{id}@objiv-jmerelo.rhcloud.com/~/git/objiv.git/
+<pre><code class='prettyprint '>git remote add \
+    openshift ssh://{id}@objiv-jmerelo.rhcloud.com/~/git/objiv.git/
 </code></pre>
 <h3>Heroku también usa algo similar.</h3>
 </div>
@@ -625,7 +628,7 @@ git pull pruebas
     
 <h1>Y colorín, colorado...</h1>
 
-<h3>(No sé si llegarmos hasta aquí)</h3>
+<h3>(No sé si llegaremos hasta aquí)</h3>
 
 <ol>
 <li><p>Cambiad la forma de pensar y de crear aplicaciones.</p></li>
