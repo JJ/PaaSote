@@ -538,7 +538,8 @@ git pull pruebas
 
 
 ```
-git remote add openshift ssh://{id}@objiv-jmerelo.rhcloud.com/~/git/objiv.git/
+git remote add \
+    openshift ssh://{id}@objiv-jmerelo.rhcloud.com/~/git/objiv.git/
 ```
 
 ### Heroku también usa algo similar.
