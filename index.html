@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Plataformas y apliaciones en la nube</title>
+    <link href="css/reset.css" rel="stylesheet" />
+    <meta name="author" content="JJ Merelo">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="shortcut icon" href="css/favicon.png" />
+    <link rel="apple-touch-icon" href="css/apple-touch-icon.png" />
+    <!-- Code Prettifier: -->
+<link href="css/highlight.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+    <link href="css/style.css" rel="stylesheet" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,800italic,300,400,800' rel='stylesheet' type='text/css'>    
+
+
+  </head>
+
+  <body>
+  <div class="fallback-message">
+  <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+  <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+  </div>
+    <div id="impress">
+    <div class='step' >
+    
+<h1>Plataformas y aplicaciones en la nube</h1>
+
+<h2>JJ Merelo <a href="http://twitter.com"><code class='inline prettyprint'>@jjmerelo</code></a></h2>
+
+<h2>Universidad de Granada</h2>
+</div>
+      <div class='step' >
+    
+<h1>No se trata sólo de usar plataformas nubosas</h1>
+
+<h2>Se trata de aprender la metodología de desarrollo en la nube.</h2>
+</div>
+      <div class='step' >
+    
+<h1>Qué os voy a contar</h1>
+
+<ul>
+<li>Cómo se diseñan y crean aplicaciones para la nube</li>
+<li>Cómo usar <code class='inline prettyprint'>git</code> de forma básica.</li>
+<li>Qué es DevOps y por qué importa.</li>
+<li>Qué es el <em>despliegue</em> y cómo usarlo.</li>
+<li>Qué es un PaaS y qué ejemplos hay.</li>
+<li>Cómo usar un PaaS de forma básica.</li>
+<li>Cómo desplegar aplicaciones en un PaaS. </li>
+</ul>
+</div>
+      <div class='step' >
+    
+<h1>Ciclo de vida de una aplicación</h1>
+
+<ul>
+<li>Diseño</li>
+<li>Implementación</li>
+<li>Prueba</li>
+<li>Despliegue</li>
+<li>Actualización</li>
+</ul>
+</div>
+      <div class='step' >
+    
+<h1>Vamos a construir algo</h1>
+
+<h2>Vamos a crear una mini-aplicación en la nube.</h2>
+
+<h3>Asequible y que podamos probar en breve. Una mini-web</h3>
+</div>
+      <div class='step' >
+    
+<h1>¿Sugerencias?</h1>
+
+<ul>
+<li>Blog muy simple</li>
+<li>Lista to-do</li>
+<li>Trivial</li>
+</ul>
+</div>
+      <div class='step' >
+    
+<h1>El ciclo se gestiona automáticamente.</h1>
+
+<h2>Si no, no hay manera de saber qué produce un error y por qué.</h2>
+
+<h3>O simplemente, hacer las cosas con eficiencia y efectividad.</h3>
+</div>
+      <div class='step' >
+    
+<h1>Continuando integración y lanzamientos</h1>
+
+<h2><a href="http://es.wikipedia.org/wiki/Integraci%C3%B3n_continua"><strong>Integración continua</strong></a>: tests automáticos + integración.</h2>
+
+<h2><a href="http://en.wikipedia.org/wiki/Continuous_delivery"><strong>Lanzamiento continuo</strong></a>: ciclos rápidos de lanzamiento.</h2>
+</div>
+      <div class='step' >
+    
+<h1>Por qué molan CI/CD</h1>
+
+<ul>
+<li>Incorporación rápida de mejoras.</li>
+<li>Cambios atómicos: fácil localizar errores.</li>
+<li>Integración desarrollo/operaciones/pruebas de calidad.</li>
+</ul>
+</div>
+      <div class='step' >
+    
+<h1>Pero todo empieza por el primer paso.</h1>
+
+<h2>Creación de un repositorio para tu proyecto.</h2>
+
+<h3>Y que el repo sea público.</h3>
+</div>
+      <div class='step' >
+    
+<h1>Usaremos <code class='inline prettyprint'>git</code> para gestionar el repositorio</h1>
+
+<h2>Git es un sistema <strong>moderno</strong> de control de fuentes</h2>
+
+<h3>Lo clásico: versionado, atribución, puntos de control del código, fusión.</h3>
+</div>
+      <div class='step' >
+    
+<h1>Pero <code class='inline prettyprint'>git</code> va mucho más allá</h1>
+
+<ul>
+<li>Permite trabajar de forma distribuida.</li>
+<li>Almacena el estado del repositorio en cada momento.</li>
+<li>Es un sistema de ficheros direccionado por contenido. </li>
+<li>Se ha convertido en un modo de vida para el programador.</li>
+</ul>
+</div>
+      <div class='step' >
+    
+<h1>Mejor empezar por GitHub</h1>
+
+<h2>Alta en <a href="http://github.com">GitHub</a>.</h2>
+</div>
+      <div class='step' >
+    
+<h1>Software libre</h1>
+
+<h2>Toda la nube está basada en software libre</h2>
+
+<h3>El mismo concepto no se podría entender si no existiera.</h3>
+</div>
+      <div class='step' >
+    
+<h1>El software es libre si tiene una licencia</h1>
+
+<h2>La licencia indica qué se puede hacer con él.</h2>
+
+<h3>Pero nunca se puede cambiar la autoría</h3>
+</div>
+      <div class='step' >
+    
+<h1>Licencias débiles y fuertes</h1>
+
+<h2>Las licencias débiles son más fáciles de combinar con software comercial y libre.</h2>
+
+<h2>Las <strong>fuertes</strong> obligan a poner la misma licencia al código que las incluya: <em>copyleft</em>.</h2>
+</div>
+      <div class='step' >
+    
+<h1>Vamos a crear un repositorio en GitHub</h1>
+
+<ul>
+<li><p>Nombre y <code class='inline prettyprint'>.gitignore</code> (usad lo que queráis)</p></li>
+<li><p>Readme.md (programa que usar MarkDown)</p></li>
+<li><p>*Licencia *: GPL fuerte, Apache o MIT débiles. Elegid la que queráis.</p></li>
+</ul>
+</div>
+      <div class='step' >
+    
+<h1>GitHub sin git</h1>
+
+<h2>Prácticamente todo se puede hacer desde la web</h2>
+
+<h2>También se puede <a href="http://windows.github.com">descargar un interfaz gráfico</a>.</h2>
+</div>
+      <div class='step' >
+    
+<h1>&quot;Editemos&quot; un fichero</h1>
+
+<h2>Usando <a href="http://joedicastro.com/pages/markdown.html">Markdown</a>, un lenguaje de etiquetas simplificado, se puede editar el fichero README y añadirle la descripción del proyecto y cómo queremos hacerlo.</h2>
+</div>
+      <div class='step' >
+    
+<h1>Añadamos a otros compañeros al proyecto</h1>
+
+<ol>
+<li>Crear un nuevo repositorio</li>
+<li>Añadir al grupo de colaboradores</li>
+</ol>
+
+<h3>Este repositorio lo usaremos para desarrollar la aplicación.</h3>
+</div>
+      <div class='step' >
+    
+<h1>Que alguien edite un artículo</h1>
+
+<h2>Y en el mensaje, que ponga <code class='inline prettyprint'>@nick</code> del siguiente editor (este recibirá email).</h2>
+
+<h3>Que lo editen todos los miembros y vuelva al primer editor para revisar.</h3>
+</div>
+      <div class='step' >
+    
+<h1>GitHub sabe lo que hiciste el último commit</h1>
+
+<h2>Te muestra los cambios y una serie de estadísticas</h2>
+
+<h3>Y es un sistema <em>social</em> porque facilita la colaboración.</h3>
+</div>
+      <div class='step' >
+    
+<h1>Koding: programación social</h1>
+
+<h2>A un primer nivel, <a href="http://koding.com">Koding</a> es una máquina virtual.</h2>
+
+<h3>Pero es también un entorno colaborativo de trabajo y despliegue.</h3>
+</div>
+      <div class='step' >
+    
+<h1>Abramos una cuenta en Koding.</h1>
+
+<h2>Creemos una aplicación (+).</h2>
+
+<h3>¡Y despleguemos!</h3>
+</div>
+      <div class='step' >
+    
+<h1>Koding crea aplicaciones en <em>CoffeeScript</em></h1>
+
+<h2>Una versión simplificada de JavaScript.</h2>
+
+<h3>Se compila a JavaScript.</h3>
+</div>
+      <div class='step' >
+    
+<h1>Usaremos Koding como nuestra plataforma de desarrollo.</h1>
+
+<h2>Para despegar todo tipo de aplicaciones en Internet.</h2>
+
+<h3>¿Todo el mundo familiar con la línea de órdenes de Linux?</h3>
+</div>
+      <div class='step' >
+    
+<h1>Creemos una aplicación para git</h1>
+
+<h2>Creemos una pequeña aplicación web</h2>
+
+<h3>Django, Ruby on Rails, node.js + express.</h3>
+
+<h3>Usemos simplemente el generador que viene con esas aplicaciones.</h3>
+</div>
+      <div class='step' >
+    
+<h1>Por ejemplo, con <code class='inline prettyprint'>express.js</code></h1>
+<pre><code class='prettyprint '>sudo install npm -g express-generator
+express mi_nueva_app
+</code></pre>
+<h3>Se siguen instrucciones para ejecutar.</h3>
+</div>
+      <div class='step' >
+    
+<h1>Pero esta aplicación tendrá su ciclo de vida</h1>
+
+<h2>Vamos a añadirla al repositorio</h2>
+</div>
+      <div class='step' >
+    
+<h1>Descargamos el repositorio</h1>
+<pre><code class='prettyprint '>git clone git@github.com:minick/miproyecto.git
+</code></pre>
+<h3>Crea un repositorio local y descarga los fuentes de nuestro proyecto.</h3>
+</div>
+      <div class='step' >
+    
+<h1>Añadimos los nuevos fuentes</h1>
+
+<h2>Copiamos al subdirectorio,</h2>
+<pre><code class='prettyprint '>cd mi_nueva_app
+git add .
+</code></pre>
+<h3>Añade todos los ficheros creados al repositorio</h3>
+</div>
+      <div class='step' >
+    
+<h1>Pero hay que sincronizar</h1>
+<pre><code class='prettyprint '>git commit -am "Aplicación generada"
+</code></pre>
+<h3>Guarda el estado de los ficheros modificados</h3>
+<pre><code class='prettyprint '>git push
+</code></pre>
+<h3>Sincroniza los cambios locales con el repo remoto.</h3>
+</div>
+      <div class='step' >
+    
+<h1>Cuando hacer commit</h1>
+
+<h2>Cada vez que sehaga un cambio significativo.</h2>
+
+<h3>Regla 50+72: título en 50 caracteres, línea en blanco, resto en líneas de 72 caracteres.</h3>
+</div>
+      <div class='step' >
+    
+<h1>¿Cuantos lenguajes llevamos ya?</h1>
+
+<h2>Se debe aprender a crear aplicaciones, no a programar en un lenguaje.</h2>
+
+<h3>Una aplicación web normal incluye varios: JavaScript, HTML, CSS, Python o PHP...</h3>
+</div>
+      <div class='step' >
+    
+<h1>Interludio sobre PaaS</h1>
+
+<h3>(Úsese para acabar de hacer los ejercicios anteriores)</h3>
+
+<h2><em>PaaS</em> == Platform as a Service.</h2>
+</div>
+      <div class='step' >
+    
+<h1>Un PaaS proporciona un <em>full stack</em></h1>
+
+<h2>Almacenamiento de datos + marco de aplicaciones + servidor web.</h2>
+
+<h3>En ocasiones, usable también como un IaaS.</h3>
+</div>
+      <div class='step' >
+    
+<h1>La mayoría siguen un modelo freemium</h1>
+
+<h2>Proporcionan un grado de servicio gratuito.</h2>
+
+<h3>Incluye pocas máquinas virtuales y con poca potencia.</h3>
+</div>
+      <div class='step' >
+    
+<h1>Ejemplos: Heroku y OpenShift</h1>
+
+<h2>Abrir cuenta en alguno de ellos o en los dos.</h2>
+
+<h3>Primero OpenShift, más flexibilidad.</h3>
+</div>
+      <div class='step' >
+    
+<h1>Creación rápida de aplicaciones</h1>
+
+<h2>OpenShift permite instalar Wordpress en segundos.</h2>
+</div>
+      <div class='step' >
+    
+<h1>Crea tu <em>stack</em> rápidamente en alguno de ellos</h1>
+
+<h2>Y tuitea con #paasunia el resultado</h2>
+</div>
+      <div class='step' >
+    
+<h1>Pero no solo de <em>stacks</em> vive el hombre</h1>
+
+<h2>Vamos a desplegar nuestra aplicación en este PaaS</h2>
+
+<h3>Pero antes habrá que aprender una cosa o tres.</h3>
+</div>
+      <div class='step' >
+    
+<h1>¿Cuantas máquinas estamos usando?</h1>
+
+<h2>Cada miembro del equipo tiene la suya.</h2>
+
+<h2>+ máquina de pruebas + máquina de explotación.</h2>
+</div>
+      <div class='step' >
+    
+<h1>Mucho arroz para tan poco pollo</h1>
+
+<h2>Pero lo importante es que <em>el entorno de desarrollo tiene que ser el mismo</em></h2>
+
+<h3>Y puede que hagan falta varios entornos de desarrollo.</h3>
+</div>
+      <div class='step' >
+    
+<h1><em>DevOps</em> al rescate</h1>
+
+<h2><em>DevOps</em> == Desarrollo + operaciones</h2>
+
+<h3>Integra &quot;Sistemas&quot; con el equipo de desarrollo, para proporcionar soporte eficiente al mismo.</h3>
+</div>
+      <div class='step' >
+    
+<h1><em>DevOps</em> también <em>programa</em> los sistemas</h1>
+
+<h2>Los entornos de desarrollo y explotación, para que sean reproducibles, están descritos por software</h2>
+
+<h3>E integrados en el sistema de control de fuentes.</h3>
+</div>
+      <div class='step' >
+    
+<h1>Un entorno para dominarlos a todos.</h1>
+
+<h2><code class='inline prettyprint'>rbenv</code>, <code class='inline prettyprint'>rvm</code>, <code class='inline prettyprint'>virtualenv</code>, <code class='inline prettyprint'>perlbrew</code>, <code class='inline prettyprint'>nave</code></h2>
+
+<h3>Descargan y seleccionan versiones específicas de lenguajes <em>a nivel de usuario</em>.</h3>
+</div>
+      <div class='step' >
+    
+<h1>Trabajemos con <code class='inline prettyprint'>nave</code></h1>
+
+<h2>Instalad <code class='inline prettyprint'>nave</code> (u otro entorno) en koding y ejecutad el programa generado anteriormente.</h2>
+
+<h3>¿Funciona en la última versión?  ¿Y en una antigua que puede estar instalada por alguien?</h3>
+</div>
+      <div class='step' >
+    
+<h1>PaaS no es sólo una plataforma para alojar aplicaciones</h1>
+
+<h2>Es un cambio de la filosofía de desarrollo que implica todo el ciclo de vida de una aplicación.</h2>
+</div>
+      <div class='step' >
+    
+<h1>Vamos a hacer pruebas con la aplicación</h1>
+
+<h2>Pero no queremos romper nada</h2>
+<pre><code class='prettyprint '>git checkout -b pruebas
+</code></pre>
+<h3>Crea una nueva rama con los mismos ficheros que la original.</h3>
+<pre><code class='prettyprint '>git push --set-upstream origin pruebas
+</code></pre>
+<h3>Crea la rama en el repo remoto y la une con el repo local</h3>
+</div>
+      <div class='step' >
+    
+<h1><em>Feature branches</em> o ramas <em>dev</em></h1>
+
+<h3>Hay muchas escuelas de desarrollo: con dos ramas, con tres, con <em>n</em>.</h3>
+
+<h2>Habitual: una rama de desarrollo (<code class='inline prettyprint'>dev</code>) y una principal (<code class='inline prettyprint'>master</code>)</h2>
+</div>
+      <div class='step' >
+    
+<h1>¿Cómo se fusionan ramas?</h1>
+
+<h2>¡No te lo digo!</h2>
+
+<h3>No se fusionan <em>a menos que hayan pasado los *</em>tests** *.</h3>
+</div>
+      <div class='step' >
+    
+<h1>Venga, va, ¿cómo se pasan los tests?</h1>
+
+<h2>Todo desarrollo moderno es TDD: <em>Test-driven development</em></h2>
+
+<h3>A cada <em>push</em>, se pasa una serie de tests.</h3>
+</div>
+      <div class='step' >
+    
+<h1>Sí, vale, eso es que se lo paso a mi colega...</h1>
+
+<h2>No. Los tests deben estar automatizados.</h2>
+</div>
+      <div class='step' >
+    
+<h1>Cada lenguaje de programación tiene sus marcos de tests</h1>
+
+<h2>Tests unitarios, tests de integración.</h2>
+
+<h2>JUnit, *unit, mocha (para JS)...</h2>
+</div>
+      <div class='step' >
+    
+<h1>Los tests tiene un formato de salida estándar</h1>
+
+<h2>Por eso se pueden ejecutar fácilmente y automáticamente por herramientas universales.</h2>
+</div>
+      <div class='step' >
+    
+<h1>Creemos tests unitarios para nuestra aplicación</h1>
+
+<h2>Ya que somos varios, podemos encargárselo a una persona del grupo.</h2>
+</div>
+      <div class='step' >
+    
+<h1>Ejemplo en mocha</h1>
+<pre><code class='prettyprint '>var request = require('supertest');  
+var server=require(__dirname + '/../web.js');
+var port = Number(process.env.PORT || 5000);
+request=request("http://localhost:"+port);
+describe('Web', function(){
+         it('Debería devolver la raíz', function(){
+            request.get("/")
+            .expect(200)
+            .end(function(err,res) {
+                 if (err) {
+                     throw err ;
+                 }
+                 });
+        });
+});
+</code></pre></div>
+      <div class='step' >
+    
+<h1>El ejemplo lo dice todo</h1>
+
+<h2>Se guarda en <code class='inline prettyprint'>test/route.js</code></h2>
+
+<h2>Se ejecuta con <code class='inline prettyprint'>mocha</code></h2>
+</div>
+      <div class='step' >
+    
+<h1>No importa la herramienta.</h1>
+
+<h2>Ésta sólo es un ejemplo.</h2>
+
+<h2>Lo importante es <em>usar siempre tests</em></h2>
+</div>
+      <div class='step' >
+    
+<h2>Porque una vez que tienes tests...</h2>
+
+<h1>Tienes integración continua.</h1>
+
+<h2>GitHub se puede configurar para pasar tests cada vez que se haga un push.</h2>
+</div>
+      <div class='step' >
+    
+<h1>Usemos <a href="http://travis-ci.org">Travis</a> o Shippable</h1>
+
+<h2>Travis se activa desde GitHub, en la pestaña <em>Web Hooks</em></h2>
+
+<h2>Configuración eh YAML</h2>
+</div>
+      <div class='step' >
+    
+<h1>Por ejemplo, para mocha en Shippable</h1>
+<pre><code class='prettyprint '>language: node_js
+node_js:
+  - 0.10.25
+before_install:
+ - npm install supertest
+before_script:
+ - mkdir -p shippable/testresults
+script:
+  - mocha
+</code></pre></div>
+      <div class='step' >
+    
+<h1>¡Otro lenguaje más!</h1>
+
+<h2>Y los que te rondaré, morena.</h2>
+</div>
+      <div class='step' >
+    
+<h1>Recapitulemos</h1>
+
+<h2>¿Qué lenguajes hace falta conocer?</h2>
+
+<ol>
+<li>Programación/scripting: Ruby, JavaScript, Perl, Python...</li>
+<li>Presentación: HTML, CSS, pero también SASS, Jade...</li>
+<li>Configuración/serialización: XML, YAML, JSON</li>
+<li>Datos: SQL o lenguajes específicos de herramienta</li>
+</ol>
+</div>
+      <div class='step' >
+    
+<h1>Ya hemos testeado</h1>
+
+<h2>Ahora ya podemos fusionar las ramas.</h2>
+
+<h3>git hace el &quot;trabajo duro&quot;.</h3>
+</div>
+      <div class='step' >
+    
+<h1>Para fusionar ramas</h1>
+<pre><code class='prettyprint '>git checkout master
+git pull --set-upstream origin pruebas
+</code></pre>
+      </div>
+    <script src="js/impress.js"></script>
+    <script>impress().init();</script>
+  </body>
+</html>
+    
