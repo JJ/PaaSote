@@ -397,7 +397,7 @@ git push --set-upstream origin pruebas
 
 ## ¡No te lo digo!
 
-### No se fusionan *a menos que hayan pasado los __tests__ *.
+### No se fusionan *a menos que hayan pasado los __tests__*.
 
 ---
 # Venga, va, ¿cómo se pasan los tests?
