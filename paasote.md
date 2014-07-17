@@ -501,5 +501,7 @@ script:
 
 ```
 git checkout master
-git pull --set-upstream origin pruebas
+git pull pruebas
 ```
+
+### Si no hay conflictos, esto se incorpora a la rama master. ¡CI!
