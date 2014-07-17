@@ -116,7 +116,14 @@ title: Plataformas y apliaciones en la nube
 
 ## Las licencias débiles son más fáciles de combinar con software comercial y libre.
 
+### Usadas, por ejemplo, en Android o el servidor Apache.
+
+---
+# Licencias *copyleft* 
+
 ## Las **fuertes** obligan a poner la misma licencia al código que las incluya: *copyleft*.
+
+### Por ejemplo, el kernel de Linux. 
 
 ---
 # Vamos a crear un repositorio en GitHub
