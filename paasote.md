@@ -547,7 +547,7 @@ git remote add openshift ssh://{id}@objiv-jmerelo.rhcloud.com/~/git/objiv.git/
 
 # Y colorín, colorado...
 
-### (No sé si llegarmos hasta aquí)
+### (No sé si llegaremos hasta aquí)
 
 1. Cambiad la forma de pensar y de crear aplicaciones.
 
