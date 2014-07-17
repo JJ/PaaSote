@@ -270,12 +270,12 @@ git push
 
 ## Se debe aprender a crear aplicaciones, no a programar en un lenguaje.
 
-### Una aplicación web normal incluye varios: JavaScript, HTML, CSS, Python o PHP... 
+### Una aplicación web normal incluye varios: JavaScript, HTML, CSS, Python o PHP o Ruby, XML o YAML o JSON...  
 
 ---
 # Interludio sobre PaaS
 
-### (Úsese para acabar de hacer los ejercicios anteriores)
+### (Úsese para acabar de hacer los ejercicios anteriores).
 
 ## *PaaS* == Platform as a Service. 
 
@@ -287,7 +287,7 @@ git push
 ### En ocasiones, usable también como un IaaS.
 
 ---
-# La mayoría siguen un modelo freemium
+# La mayoría siguen un modelo *freemium*
 
 ## Proporcionan un grado de servicio gratuito.
 
@@ -305,10 +305,12 @@ git push
 
 ## OpenShift permite instalar Wordpress en segundos.
 
+## Heroku, más enfocado a node.js. 
+
 ---
 # Crea tu *stack* rápidamente en alguno de ellos
 
-## Y tuitea con #paasunia el resultado
+## Y tuitea con #paasunia el resultado.
 
 ---
 # Pero no solo de *stacks* vive el hombre
@@ -327,14 +329,14 @@ git push
 ---
 # Mucho arroz para tan poco pollo
 
-## Pero lo importante es que *el entorno de desarrollo tiene que ser el mismo*
+## Pero lo importante es que *el entorno de desarrollo tiene que ser el mismo*.
 
-### Y puede que hagan falta varios entornos de desarrollo.
+### Y puede que hagan falta varios entornos en el desarrollo.
 
 ---
 # *DevOps* al rescate
 
-## *DevOps* == Desarrollo + operaciones
+## *DevOps* == Desarrollo + operaciones (+ calidad o test).
 
 ### Integra "Sistemas" con el equipo de desarrollo, para proporcionar soporte eficiente al mismo.
 
@@ -364,6 +366,8 @@ git push
 
 ## Es un cambio de la filosofía de desarrollo que implica todo el ciclo de vida de una aplicación. 
 
+### Lo que hemos dicho desde el principio. 
+
 ---
 # Vamos a hacer pruebas con la aplicación
 
@@ -379,7 +383,7 @@ git checkout -b pruebas
 git push --set-upstream origin pruebas
 ```
 
-### Crea la rama en el repo remoto y la une con el repo local
+### Crea la rama en el repo remoto y la une con el repo local (tras cambios).
 
 ---
 # *Feature branches* o ramas *dev*
@@ -393,7 +397,7 @@ git push --set-upstream origin pruebas
 
 ## ¡No te lo digo!
 
-### No se fusionan *a menos que hayan pasado los **tests** *.
+### No se fusionan *a menos que hayan pasado los __tests__ *.
 
 ---
 # Venga, va, ¿cómo se pasan los tests?
@@ -517,3 +521,42 @@ git pull pruebas
 ```
 
 ### Si no hay conflictos, esto se incorpora a la rama master. ¡CI!
+
+---
+# Despleganco una aplicación
+
+1. Creación del entorno desde línea de órdenes o panel (seleccionar *gears* o *dynos*)
+
+2. Configuración de la aplicación (`Procfile` o similar)
+
+3. Desplegar la aplicación.
+
+---
+# Ya podemos desplegar
+
+### (Aunque antes habría que hacer pruebas de integración).
+
+
+```
+git remote add openshift ssh://{id}@objiv-jmerelo.rhcloud.com/~/git/objiv.git/
+```
+
+### Heroku también usa algo similar.
+
+---
+
+# Y colorín, colorado...
+
+### (No sé si llegarmos hasta aquí)
+
+1. Cambiad la forma de pensar y de crear aplicaciones.
+
+2. Probad una herramienta nueva cada mes.
+
+3. Pendad en la nube.
+
+---
+# Eso es todo
+
+## Muchas gracias.
+
